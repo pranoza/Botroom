@@ -1,18 +1,11 @@
 import type { Metadata } from 'next';
-import { Vazirmatn } from 'next/font/google';
+import '@fontsource-variable/vazirmatn';
 import './globals.css';
 import { BRAND, SITE_URL } from '@/lib/site';
 import { organizationSchema, softwareApplicationSchema } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
-
-const vazirmatn = Vazirmatn({
-  subsets: ['arabic', 'latin'],
-  weight: ['400', '500', '600', '700', '800'],
-  variable: '--font-vazirmatn',
-  display: 'swap',
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -49,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fa" dir="rtl" className={vazirmatn.variable}>
+    <html lang="fa" dir="rtl">
       <body
         suppressHydrationWarning
         className="min-h-screen bg-slate-50 text-slate-900 antialiased flex flex-col"

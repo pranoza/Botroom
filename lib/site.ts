@@ -1,9 +1,13 @@
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL || 'https://botroom.ir'
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  process.env.SITE_URL ||
+  'https://botroom.ir'
 ).replace(/\/$/, '');
 
 export const APP_URL = (
-  process.env.NEXT_PUBLIC_APP_URL || 'https://app.botroom.ir'
+  process.env.NEXT_PUBLIC_APP_URL ||
+  process.env.APP_URL_PANEL ||
+  'https://app.botroom.ir'
 ).replace(/\/$/, '');
 
 export const BRAND = {

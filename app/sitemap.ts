@@ -3,6 +3,8 @@ import { SITE_URL } from '@/lib/site';
 import { FEATURE_LIST } from '@/data/features';
 import { BLOG_ARTICLES } from '@/data/blog';
 
+export const dynamic = 'force-dynamic';
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
