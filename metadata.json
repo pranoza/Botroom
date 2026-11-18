@@ -1,0 +1,6 @@
+{
+  "name": "باتروم (BotRoom)",
+  "description": "پلتفرم ابری ساخت و مدیریت بدون کد بازوهای هوشمند پیام‌رسان بله با طراح بصری جریان گفتگو، فروشگاه درون‌بله، نوبت‌دهی شمسی و CRM",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
