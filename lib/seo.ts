@@ -59,6 +59,7 @@ export function organizationSchema() {
     name: `${BRAND.faName} (${BRAND.enName})`,
     alternateName: ['BotRoom', 'باتروم'],
     url: SITE_URL,
+    logo: `${SITE_URL}/logo.png`,
     email: BRAND.email,
     description: BRAND.tagline,
     sameAs: [SITE_URL],

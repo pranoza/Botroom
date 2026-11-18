@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_URL,
   },
+  icons: {
+    icon: [
+      { url: '/favicon.png', type: 'image/png', sizes: '64x64' },
+    ],
+    apple: [
+      { url: '/apple-icon.png', type: 'image/png', sizes: '180x180' },
+    ],
+  },
   openGraph: {
     type: 'website',
     locale: 'fa_IR',
@@ -27,6 +35,14 @@ export const metadata: Metadata = {
     title: 'باتروم | پلتفرم ساخت ربات و بازوی هوشمند پیام‌رسان بله',
     description:
       'ساخت ربات بله بدون کد با طراح بصری جریان گفتگو، شبیه‌ساز زنده، کاتالوگ فروشگاه، نوبت‌دهی شمسی، CRM و ارسال گروهی.',
+    images: [
+      {
+        url: '/logo.png',
+        width: 256,
+        height: 256,
+        alt: 'باتروم | BotRoom',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
